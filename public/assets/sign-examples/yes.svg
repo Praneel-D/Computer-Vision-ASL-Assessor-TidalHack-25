@@ -1,0 +1,42 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="60" r="25" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Body -->
+  <rect x="85" y="80" width="30" height="40" rx="15" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Right arm -->
+  <line x1="115" y1="90" x2="140" y2="90" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Fist (closed hand) -->
+  <g transform="translate(140, 90)">
+    <!-- Fist shape -->
+    <rect x="-8" y="-10" width="16" height="20" rx="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+    <!-- Knuckles -->
+    <circle cx="-4" cy="-5" r="2" fill="#f59e0b"/>
+    <circle cx="0" cy="-6" r="2" fill="#f59e0b"/>
+    <circle cx="4" cy="-5" r="2" fill="#f59e0b"/>
+    <!-- Thumb -->
+    <ellipse cx="-10" cy="0" rx="3" ry="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+  </g>
+  
+  <!-- Left arm -->
+  <line x1="85" y1="90" x2="60" y2="110" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Nodding motion arrows -->
+  <path d="M 140 70 Q 145 65 140 60" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 140 60 Q 135 65 140 70" stroke="#10b981" stroke-width="3" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10b981"/>
+    </marker>
+  </defs>
+  
+  <!-- Text -->
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">YES</text>
+</svg>

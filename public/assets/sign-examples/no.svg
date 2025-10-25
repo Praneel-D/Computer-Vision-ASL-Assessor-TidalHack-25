@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="60" r="25" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Body -->
+  <rect x="85" y="80" width="30" height="40" rx="15" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Right arm -->
+  <line x1="115" y1="90" x2="140" y2="90" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Hand with index and middle finger to thumb (like talking mouth) -->
+  <g transform="translate(140, 90)">
+    <!-- Palm base -->
+    <ellipse cx="0" cy="0" rx="10" ry="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+    
+    <!-- Index finger (bent toward thumb) -->
+    <path d="M -5 -8 Q -8 -12 -10 -8 Q -12 -4 -8 -2" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Middle finger (bent toward thumb) -->
+    <path d="M 0 -8 Q -3 -12 -5 -8 Q -7 -4 -3 -2" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Ring finger (folded down) -->
+    <line x1="5" y1="-5" x2="8" y2="2" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Pinky (folded down) -->
+    <line x1="8" y1="-3" x2="10" y2="3" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Thumb (meeting the fingers) -->
+    <ellipse cx="-8" cy="-2" rx="2" ry="4" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+  </g>
+  
+  <!-- Left arm -->
+  <line x1="85" y1="90" x2="60" y2="110" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Talking motion (opening/closing) -->
+  <path d="M 130 85 Q 135 80 140 85" stroke="#ef4444" stroke-width="2" fill="none" stroke-dasharray="2,2"/>
+  <path d="M 130 95 Q 135 100 140 95" stroke="#ef4444" stroke-width="2" fill="none" stroke-dasharray="2,2"/>
+  
+  <!-- Text -->
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">NO</text>
+</svg>

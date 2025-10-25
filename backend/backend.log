@@ -1,0 +1,9 @@
+INFO:__main__:Starting ASL Recognition API...
+INFO:__main__:Loading model from asl_cnn_augmented.keras
+INFO:__main__:Model loaded successfully!
+INFO:__main__:Model loaded successfully!
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+On macOS, try disabling the 'AirPlay Receiver' service from System Preferences -> General -> AirDrop & Handoff.

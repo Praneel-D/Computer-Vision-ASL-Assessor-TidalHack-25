@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="60" r="25" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Body -->
+  <rect x="85" y="80" width="30" height="40" rx="15" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Right arm (waving) -->
+  <line x1="115" y1="90" x2="140" y2="70" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Hand (open, waving) -->
+  <g transform="translate(140, 70) rotate(-30)">
+    <!-- Palm -->
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+    <!-- Fingers -->
+    <line x1="-8" y1="-5" x2="-8" y2="-15" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-3" y1="-7" x2="-3" y2="-18" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="2" y1="-7" x2="2" y2="-17" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="7" y1="-5" x2="7" y2="-14" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <!-- Thumb -->
+    <line x1="-10" y1="2" x2="-15" y2="5" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Left arm -->
+  <line x1="85" y1="90" x2="60" y2="110" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Motion lines -->
+  <path d="M 150 50 Q 155 45 160 50" stroke="#94a3b8" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 155 55 Q 160 50 165 55" stroke="#94a3b8" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Text -->
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">HELLO</text>
+</svg>

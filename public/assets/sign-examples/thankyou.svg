@@ -1,0 +1,42 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="60" r="25" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Body -->
+  <rect x="85" y="80" width="30" height="40" rx="15" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Right arm (from chin outward) -->
+  <line x1="115" y1="90" x2="150" y2="100" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Hand (open, flat) -->
+  <g transform="translate(150, 100)">
+    <!-- Palm -->
+    <ellipse cx="0" cy="0" rx="15" ry="10" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+    <!-- Fingers -->
+    <line x1="-10" y1="-8" x2="-10" y2="-20" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-3" y1="-9" x2="-3" y2="-22" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="4" y1="-9" x2="4" y2="-21" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="11" y1="-8" x2="11" y2="-18" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <!-- Thumb -->
+    <line x1="-12" y1="3" x2="-18" y2="8" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Left arm -->
+  <line x1="85" y1="90" x2="60" y2="110" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Motion arrow (from chin outward) -->
+  <path d="M 115 75 L 140 85" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10b981"/>
+    </marker>
+  </defs>
+  
+  <!-- Text -->
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">THANK YOU</text>
+</svg>
