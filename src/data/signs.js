@@ -5,7 +5,7 @@ const signs = [
     word: 'A',
     meaning: 'Letter A in ASL alphabet.',
     tips: 'Make a fist with thumb resting on the side.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -13,7 +13,7 @@ const signs = [
     word: 'B',
     meaning: 'Letter B in ASL alphabet.',
     tips: 'Flat hand with fingers together pointing up, thumb across palm.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: true,
   },
   {
@@ -21,7 +21,7 @@ const signs = [
     word: 'C',
     meaning: 'Letter C in ASL alphabet.',
     tips: 'Curve your hand to form a C shape.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: true,
   },
   {
@@ -29,7 +29,7 @@ const signs = [
     word: 'D',
     meaning: 'Letter D in ASL alphabet.',
     tips: 'Point index finger up, touch thumb to middle and ring fingers.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -37,7 +37,7 @@ const signs = [
     word: 'E',
     meaning: 'Letter E in ASL alphabet.',
     tips: 'Curl all fingers down with thumb tucked in.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -45,7 +45,7 @@ const signs = [
     word: 'F',
     meaning: 'Letter F in ASL alphabet.',
     tips: 'Touch thumb and index finger together, other fingers extended.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: true,
   },
   {
@@ -53,7 +53,7 @@ const signs = [
     word: 'G',
     meaning: 'Letter G in ASL alphabet.',
     tips: 'Point index finger and thumb horizontally.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -61,7 +61,7 @@ const signs = [
     word: 'H',
     meaning: 'Letter H in ASL alphabet.',
     tips: 'Extend index and middle fingers horizontally together.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -69,7 +69,7 @@ const signs = [
     word: 'I',
     meaning: 'Letter I in ASL alphabet.',
     tips: 'Extend only pinky finger upward, fist for other fingers.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -77,7 +77,7 @@ const signs = [
     word: 'K',
     meaning: 'Letter K in ASL alphabet.',
     tips: 'Index and middle finger up in a V, thumb between them.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -85,7 +85,7 @@ const signs = [
     word: 'L',
     meaning: 'Letter L in ASL alphabet.',
     tips: 'Extend index finger and thumb to form an L shape.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -93,7 +93,7 @@ const signs = [
     word: 'M',
     meaning: 'Letter M in ASL alphabet.',
     tips: 'Tuck thumb under first three fingers.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -101,7 +101,7 @@ const signs = [
     word: 'N',
     meaning: 'Letter N in ASL alphabet.',
     tips: 'Tuck thumb under first two fingers.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -109,7 +109,7 @@ const signs = [
     word: 'O',
     meaning: 'Letter O in ASL alphabet.',
     tips: 'Form a circle with all fingers and thumb.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: true,
   },
   {
@@ -117,7 +117,7 @@ const signs = [
     word: 'P',
     meaning: 'Letter P in ASL alphabet.',
     tips: 'Like K but pointed downward.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -125,7 +125,7 @@ const signs = [
     word: 'Q',
     meaning: 'Letter Q in ASL alphabet.',
     tips: 'Like G but pointed downward.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -133,7 +133,7 @@ const signs = [
     word: 'R',
     meaning: 'Letter R in ASL alphabet.',
     tips: 'Cross index and middle fingers.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -141,7 +141,7 @@ const signs = [
     word: 'S',
     meaning: 'Letter S in ASL alphabet.',
     tips: 'Make a fist with thumb over fingers.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -149,7 +149,7 @@ const signs = [
     word: 'T',
     meaning: 'Letter T in ASL alphabet.',
     tips: 'Tuck thumb between index and middle fingers.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -157,7 +157,7 @@ const signs = [
     word: 'U',
     meaning: 'Letter U in ASL alphabet.',
     tips: 'Extend index and middle fingers together upward.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -165,7 +165,7 @@ const signs = [
     word: 'V',
     meaning: 'Letter V in ASL alphabet.',
     tips: 'Extend index and middle fingers in a V shape.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -173,7 +173,7 @@ const signs = [
     word: 'W',
     meaning: 'Letter W in ASL alphabet.',
     tips: 'Extend index, middle, and ring fingers upward.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -181,7 +181,7 @@ const signs = [
     word: 'X',
     meaning: 'Letter X in ASL alphabet.',
     tips: 'Bend index finger into a hook shape.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
     expectedOpenHand: false,
   },
   {
@@ -189,7 +189,39 @@ const signs = [
     word: 'Y',
     meaning: 'Letter Y in ASL alphabet.',
     tips: 'Extend thumb and pinky, other fingers curled.',
-    sampleImage: null,
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
+    expectedOpenHand: false,
+  },
+  {
+    id: 'hello',
+    word: 'HELLO',
+    meaning: 'A friendly greeting.',
+    tips: 'Open hand by your temple and move outward in a small wave.',
+    sampleImage: '/assets/sign-examples/hello.webp',
+    expectedOpenHand: true,
+  },
+  {
+    id: 'thankyou',
+    word: 'THANK YOU',
+    meaning: 'Expression of gratitude.',
+    tips: 'Open hand from chin outward.',
+    sampleImage: '/assets/sign-examples/thankyou.webp',
+    expectedOpenHand: true,
+  },
+  {
+    id: 'yes',
+    word: 'YES',
+    meaning: 'Affirmation.',
+    tips: 'Make a fist and nod it up and down.',
+    sampleImage: '/assets/sign-examples/asl_alphabet.jpg',
+    expectedOpenHand: false,
+  },
+  {
+    id: 'no',
+    word: 'NO',
+    meaning: 'Negation.',
+    tips: 'Bring index and middle finger to thumb like a talking mouth.',
+    sampleImage: '/assets/sign-examples/no.webp',
     expectedOpenHand: false,
   },
 ];
