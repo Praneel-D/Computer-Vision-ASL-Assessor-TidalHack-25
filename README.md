@@ -1,3 +1,5 @@
+This project is a real-time American Sign Language (ASL) recognition web application that uses a Convolutional Neural Network (CNN) trained on the Sign Language MNIST dataset to identify hand signs representing the letters A–Y (excluding J and Z). The backend, built with FastAPI, handles image preprocessing and model inference using TensorFlow and OpenCV, while the React-based frontend captures live webcam footage and displays instant predictions with confidence and accuracy scores. The system demonstrates the integration of machine learning and web technologies to create an interactive, efficient, and user-friendly tool for ASL recognition.
+
 # ASL Form Correction App
 
 An AI-powered American Sign Language (ASL) form correction application that helps users learn and improve their sign language skills through real-time feedback.
